@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Test post",
+        "author": "testing_user",
+        "authorProfile": "https://example.com/authors/testing_user",
+        "url": "https://example.com/testpost"
+    },
+    {
+        "title": "Test post 2",
+        "author": "testing_user",
+        "authorProfile": "https://example.com/authors/testing_user",
+        "url": "https://example.com/testposttwo"
+    }
+]

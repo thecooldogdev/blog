@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #13e3df;
+    color: rgb(228, 18, 18);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.blog-post {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-post h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.blog-post p {
+    margin: 0.5rem 0 0 0;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        width: 70%;
+    }
+}

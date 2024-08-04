@@ -13,19 +13,19 @@ function displayBlogPosts(posts) {
 
         const titleElement = document.createElement('h2');
         const linkElement = document.createElement('a');
-        linkElement.href = post.url;
+        linkElement.href = post.blogposturl;
         linkElement.textContent = post.title;
         titleElement.appendChild(linkElement);
 
-        const authorElement = document.createElement('p');
-        const authorLink = document.createElement('a');
-        authorLink.href = post.authorProfile;
-        authorLink.textContent = post.author;
-        authorElement.textContent = 'Author: ';
-        authorElement.appendChild(authorLink);
+        const tagElement = document.createElement('p');
+        const tagLink = document.createElement('a');
+        tagLink.href = post.tagurl;
+        tagLink.textContent = post.tag;
+        tagElement.textContent = 'Tag: ';
+        tagElement.appendChild(tagLink);
 
         postElement.appendChild(titleElement);
-        postElement.appendChild(authorElement);
+        postElement.appendChild(tagElement);
 
         blogPostsContainer.appendChild(postElement);
     });

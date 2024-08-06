@@ -21,7 +21,7 @@ function displayBlogPosts(posts) {
         const authorLink = document.createElement('a');
         authorLink.href = post.authorurl;
         authorLink.textContent = post.author;
-        authorElement.textContent = 'author: ';
+        authorElement.textContent = 'Author: ';
         authorElement.appendChild(authorLink);
 
         postElement.appendChild(titleElement);

@@ -17,15 +17,15 @@ function displayBlogPosts(posts) {
         linkElement.textContent = post.title;
         titleElement.appendChild(linkElement);
 
-        const tagElement = document.createElement('p');
-        const tagLink = document.createElement('a');
-        tagLink.href = post.tagurl;
-        tagLink.textContent = post.tag;
-        tagElement.textContent = 'Tag: ';
-        tagElement.appendChild(tagLink);
+        const authorElement = document.createElement('p');
+        const authorLink = document.createElement('a');
+        authorLink.href = post.authorurl;
+        authorLink.textContent = post.author;
+        authorElement.textContent = 'author: ';
+        authorElement.appendChild(authorLink);
 
         postElement.appendChild(titleElement);
-        postElement.appendChild(tagElement);
+        postElement.appendChild(authorElement);
 
         blogPostsContainer.appendChild(postElement);
     });

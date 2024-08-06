@@ -1,14 +1,8 @@
 [
     {
         "title": "Test post",
-        "tag": "testing_tag",
-        "tagurl": "https://example.com/tags/testing_tag",
+        "author": "testing_author",
+        "authorurl": "https://example.com/authors/testing_author",
         "blogposturl": "https://example.com/testpost"
-    },
-    {
-        "title": "Test post 2",
-        "tag": "testing_tag",
-        "tagurl": "https://example.com/tags/testing_tag",
-        "blogposturl": "https://example.com/testposttwo"
     }
 ]
